@@ -24,6 +24,7 @@
 		607C5D341985A13300501387 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D311985A13300501387 /* default.png */; };
 		607C5D351985A13300501387 /* sleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D321985A13300501387 /* sleeping.png */; };
 		607C5D361985A13300501387 /* grumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D331985A13300501387 /* grumpy.png */; };
+		A1429224211CBF61008D543D /* myPet.m in Sources */ = {isa = PBXBuildFile; fileRef = A1429223211CBF60008D543D /* myPet.m */; };
 		AA79DD631C99C01C0098CD0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */; };
 		AFEF852A19F082EB00C5C416 /* bucket.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF852819F082EB00C5C416 /* bucket.png */; };
 		AFEF852B19F082EB00C5C416 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF852919F082EB00C5C416 /* apple.png */; };
@@ -62,6 +63,8 @@
 		607C5D311985A13300501387 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		607C5D321985A13300501387 /* sleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeping.png; sourceTree = "<group>"; };
 		607C5D331985A13300501387 /* grumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grumpy.png; sourceTree = "<group>"; };
+		A1429222211CBF60008D543D /* myPet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myPet.h; sourceTree = "<group>"; };
+		A1429223211CBF60008D543D /* myPet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPet.m; sourceTree = "<group>"; };
 		AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		AFEF852819F082EB00C5C416 /* bucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucket.png; sourceTree = "<group>"; };
 		AFEF852919F082EB00C5C416 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 		602CAE341984363700C9FE49 = {
 			isa = PBXGroup;
 			children = (
+				A1429222211CBF60008D543D /* myPet.h */,
+				A1429223211CBF60008D543D /* myPet.m */,
 				602CAE461984363700C9FE49 /* Phonagotchi */,
 				602CAE651984363900C9FE49 /* PhonagotchiTests */,
 				602CAE3F1984363700C9FE49 /* Frameworks */,
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602CAE571984363800C9FE49 /* LPGViewController.m in Sources */,
+				A1429224211CBF61008D543D /* myPet.m in Sources */,
 				602CAE511984363800C9FE49 /* LPGAppDelegate.m in Sources */,
 				602CAE4D1984363700C9FE49 /* main.m in Sources */,
 			);

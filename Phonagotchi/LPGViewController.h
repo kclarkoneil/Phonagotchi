@@ -10,4 +10,6 @@
 
 @interface LPGViewController : UIViewController
 
+-(void)howTheCatWasPet: (UIPanGestureRecognizer*)petSpeed;
+-(void)createAnApple: (UILongPressGestureRecognizer *) longPressure;
 @end
